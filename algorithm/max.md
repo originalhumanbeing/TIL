@@ -18,7 +18,8 @@ function max3(a,b,c){
              max = a;
          } else if (b>max) {
              max = b;
-         } else { // else if (c>max)
+         } else { // 몇몇 경우 오류 ㅠㅠ 
+         // else if (c>max) 조건으로 수정해야!
              max = c;
          }
  	}
@@ -27,6 +28,7 @@ function max3(a,b,c){
 ```
 
 ```js
+// 간편한 풀이
 function max3(a,b,c){
     return a >b ? a : b > c ? b : c;
  }
@@ -47,6 +49,7 @@ function maxN(arr){
 ```
 
 ```javascript
+// mdn 풀이 참고
 function max(...arr) {
 	return arr.reduce((a,b) => a > b ? a : b);
 }
@@ -74,7 +77,7 @@ function sumN(n){
 # 5. 패스워드 유효성 검사하는 함수를 작성하시오. (8자 이상, 하나 이상 숫자 포함, 하나 이상 영문자 포함)
 > Function validate(password){}  
 > validate(“1234567”) === false validate(“1234567a”) === true
-
+- 정규식 활용: d = 숫자 의미함
 ```javascript
 function validate(password) {
 	return !!password 
