@@ -23,7 +23,7 @@ for([초기문]; [조건문]; [증감문]) {
 // 5. 조건문 검사 후 참일 경우 내부 코드 수행
 // 위 과정 반복
 ```
-```javascript
+```html
 <form name="selectForm">
   <p>
     <label for="musicTypes">Choose some music types, then click the button below:</label>
@@ -99,7 +99,7 @@ while (theMark == true) {
 ```
 
 5) break: 반복문, switch문, 레이블 문과 결합한 문 탈출 시 사용
-```javascript
+```
 break; // 레이블 없이 break문만 쓸 경우
 break 레이블; // 레이블 문을 쓸 때, 특정 레이블 문에서 종료
 ```
@@ -122,7 +122,7 @@ labelCancelLoops: while (true) {
 }
 ```
 6) continue: while, do-while, for, 레이블 문을 재시작하기 위해 사용  
-```javascript
+```
 continue; // 레이블 없이 사용시, 현재 반복 종료하고 다음 코드를 실행함
 continue label; // 해당 레이블로 식별되는 루프 문에만 적용됨
 ```
@@ -175,14 +175,14 @@ function dump_props(obj, obj_name) {
 ```
 8) for...of: for...in과 동일하게 반복하며 특정 코드를 수행, 단 반환되는 결과값이 다름  
 
-```javascript
+```
 for (variable of object) {
-  statement
+  //statement
 }
 ```
 
 * for...in/ for...of 차이점 예시
-```javascript
+```
 let arr = [3, 5, 7];
 arr.foo = "hello";
 
@@ -246,3 +246,5 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/%ED%95%A8%EC%88%98
 함수
 http://emflant.tistory.com/66
 내장함수와 클로
+
+
