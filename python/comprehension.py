@@ -1,4 +1,4 @@
-# comprehension 예제 따라하기
+# comprehension 이해하고 예제 따라하기
 # 참고: https://mingrammer.com/introduce-comprehension-of-python/#list-comprehension-lc
 
 # 1. List Comprehension
